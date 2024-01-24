@@ -6,3 +6,4 @@ use App\Http\Controllers\OrszagokController;
 
 Route::view('/', 'welcome');
 Route::get('/kontinens/{id}', [KontinensekController::class, 'Kontinens']);
+Route::get('/orszagok/{id}', [OrszagokController::class, 'Orszagok']);
